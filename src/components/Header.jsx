@@ -4,7 +4,15 @@ const Header = () => {
   return (
     <section>
       <nav>
-      <Link to="/">Início</Link>
+        <div>Nicolas Lima</div>
+        
+        <div>
+          <Link to="/">Início</Link>
+          <Link to="/about">Sobre</Link>
+          <Link to="/projects">Projetos</Link>
+          <Link to="/skills">Habilidades</Link>
+          <Link to="/contact">Contatos</Link>
+        </div>
       </nav>
     </section>
   )
