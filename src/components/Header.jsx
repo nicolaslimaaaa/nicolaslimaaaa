@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
-    <section>
+    <section className='bg-red-800'>
       <nav>
         <div>Nicolas Lima</div>
         
