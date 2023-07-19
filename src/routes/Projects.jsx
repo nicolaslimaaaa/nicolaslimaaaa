@@ -1,17 +1,28 @@
-import { Link } from 'react-router-dom'
+import template from '../assets/template-capa-de-projeto.jpg'
 
 const Projects = () => {
   return (
     <section>
-      <h1>Projetos</h1>
       <div>
-        <Link to="/projects/1">Projeto 1</Link>
+        <h4>Projeto 1</h4>
+        <img src={template} alt="Imagem do projeto" />
+        <p>Stacks:</p>
+        <a href="" target='_blank'>Deploy</a>
+        <a href="" target='_blank'>GitHub</a>
       </div>
       <div>
-        <Link to="/projects/2">Projeto 2</Link>
+        <h4>Projeto 2</h4>
+        <img src={template} alt="Imagem do projeto" />
+        <p>Stacks:</p>
+        <a href="" target='_blank'>Deploy</a>
+        <a href="" target='_blank'>GitHub</a>
       </div>
       <div>
-        <Link to="/projects/3">Projeto 3</Link>
+        <h4>Projeto 3</h4>
+        <img src={template} alt="Imagem do projeto" />
+        <p>Stacks:</p>
+        <a href="" target='_blank'>Deploy</a>
+        <a href="" target='_blank'>GitHub</a>
       </div>
     </section>
   )

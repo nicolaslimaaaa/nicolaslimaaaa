@@ -8,7 +8,6 @@ import Home from "./routes/Home";
 import App from "./App";
 import Error from "./routes/Error";
 import Projects from "./routes/Projects";
-import Project from "./components/Project";
 import About from "./routes/About";
 import Skills from "./routes/Skills";
 import Contact from "./routes/Contact";
@@ -20,7 +19,7 @@ const router = createBrowserRouter([
     errorElement: <Error />,
     children: [
       {
-        path: "/home",
+        path: "/",
         element: <Home />,
       },
       {
@@ -39,11 +38,6 @@ const router = createBrowserRouter([
         path: "/projects",
         element: <Projects />,
       },
-      {
-        path: "/projects/:id",
-        element: <Project />,
-      },
-      
     ],
   },
 ]);
