@@ -1,8 +1,8 @@
 const Contact = () => {
   return (
-    <section>
+    <section className="flex flex-col items-center justify-evenly h-screen">
       <section>
-        <form>
+        <form className="flex flex-col">
           <label htmlFor="input-name">Nome</label>
           <input type="text" id="input-name" placeholder="Ex.: Nicolas"/>
           <label htmlFor="input-last-name">Sobrenome</label>

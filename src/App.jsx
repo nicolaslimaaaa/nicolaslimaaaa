@@ -4,12 +4,16 @@ import Drawer from './components/Drawer'
 
 function App() {
   return (
-    <Drawer>
-      <section>
-        <Header />
-        <Outlet />
-      </section>
-    </Drawer>
+    <section>
+      <Header />
+      <div className='ml-80'>
+        <Drawer>
+            <div className='flex items-center justify-center w-full'>
+            <Outlet />
+            </div>
+        </Drawer>
+      </div>
+    </section>
   )
 }
 
