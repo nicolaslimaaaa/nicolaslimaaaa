@@ -11,6 +11,7 @@ import Projects from "./routes/Projects";
 import About from "./routes/About";
 import Skills from "./routes/Skills";
 import Contact from "./routes/Contact";
+import './index.css';
 
 const router = createBrowserRouter([
   {
