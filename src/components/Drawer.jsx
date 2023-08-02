@@ -1,20 +1,35 @@
 import PropTypes from 'prop-types'
+import { Link } from 'react-router-dom'
+import { AiOutlineMenu, AiOutlineClose, AiOutlineHome, AiOutlineMessage, AiOutlineAppstore, AiOutlineProfile, AiOutlineThunderbolt } from 'react-icons/ai';
+import { useState } from 'react';
+
 const Drawer = ({ children }) => {
+  const [drawerOpen, setDrawerOpen] = useState(false);
+
+  const handleChangeDrawer = () => {
+    setDrawerOpen(!drawerOpen);
+  };
+
+  const closeDrawer = () => {
+    setDrawerOpen(false);
+  };
+
   return (
     <div className="drawer">
-  <input id="my-drawer" type="checkbox" className="drawer-toggle" />
+  <input id="my-drawer" type="checkbox" checked={ drawerOpen } onChange={ handleChangeDrawer } className="drawer-toggle" />
   <div className="drawer-content">
-    <label htmlFor="my-drawer" className="btn btn-primary drawer-button lg:hidden">Open drawer</label>
+    <label htmlFor="my-drawer" className="btn bg-main-color border-none drawer-button md:hidden mt-4 ml-4"><AiOutlineMenu /></label>
     {children}
   </div> 
   <div className="drawer-side">
     <label htmlFor="my-drawer" className="drawer-overlay"></label>
-    <ul className="menu p-4 w-80 h-full bg-base-200 text-base-content">
-      {/* Sidebar content here */}
-    <label htmlFor="my-drawer" className="btn btn-primary drawer-button lg:hidden">Open drawer</label>
-      <li><a>Sidebar Item 1</a></li>
-      <li><a>Sidebar Item 2</a></li>
-      
+    <ul className="menu p-4 w-80 h-full bg-dark-color text-text-color text-2xl gap-y-6">
+    <label htmlFor="my-drawer" className="btn bg-main-color border-none drawer-button md:hidden"><AiOutlineClose /></label>
+      <li><Link to="/" onClick={ closeDrawer } className='mt-10'><AiOutlineHome /> Início</Link></li>
+      <li><Link to="/about" onClick={ closeDrawer }><AiOutlineProfile /> Sobre</Link></li>
+      <li><Link to="/projects" onClick={ closeDrawer }><AiOutlineAppstore /> Projetos</Link></li>
+      <li><Link to="/skills" onClick={ closeDrawer }><AiOutlineThunderbolt /> Habilidades</Link></li>
+      <li><Link to="/contact" onClick={ closeDrawer }><AiOutlineMessage /> Contatos</Link></li>
     </ul>
   </div>
 </div>
