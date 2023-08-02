@@ -2,6 +2,7 @@ import { Outlet } from 'react-router-dom'
 import Header from './components/Header'
 import Drawer from './components/Drawer'
 import Footer from './components/Footer'
+import ToTop from './components/ToTop'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             </div>
         </Drawer>
       </div>
+      <ToTop />
       <Footer />
     </section>
   )

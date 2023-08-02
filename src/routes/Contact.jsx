@@ -2,7 +2,7 @@ import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
 const Contact = () => {
   return (
-    <section className="flex flex-col items-center h-screen mt-8 text-menu-color text-xl font-bold">
+    <section className="flex flex-col items-center h-screen mt-10 text-menu-color text-xl font-bold">
         <form className="flex flex-col gap-y-3">
           <label htmlFor="input-name">Nome</label>
           <input

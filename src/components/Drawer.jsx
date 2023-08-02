@@ -23,9 +23,9 @@ const Drawer = ({ children }) => {
   </div> 
   <div className="drawer-side">
     <label htmlFor="my-drawer" className="drawer-overlay"></label>
-    <ul className="menu p-4 w-80 h-full bg-dark-color text-text-color">
+    <ul className="menu p-4 w-80 h-full bg-dark-color text-text-color text-2xl gap-y-6">
     <label htmlFor="my-drawer" className="btn bg-main-color border-none drawer-button md:hidden"><AiOutlineClose /></label>
-      <li><Link to="/" onClick={ closeDrawer }><AiOutlineHome /> Início</Link></li>
+      <li><Link to="/" onClick={ closeDrawer } className='mt-10'><AiOutlineHome /> Início</Link></li>
       <li><Link to="/about" onClick={ closeDrawer }><AiOutlineProfile /> Sobre</Link></li>
       <li><Link to="/projects" onClick={ closeDrawer }><AiOutlineAppstore /> Projetos</Link></li>
       <li><Link to="/skills" onClick={ closeDrawer }><AiOutlineThunderbolt /> Habilidades</Link></li>
