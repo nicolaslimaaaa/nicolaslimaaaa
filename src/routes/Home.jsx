@@ -1,4 +1,4 @@
-import eu from '../assets/minha-foto.jpeg'
+import eu from '../assets/minha-foto.png'
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
 const Home = () => {
@@ -12,7 +12,7 @@ const Home = () => {
         <img
           src={eu}
           alt="Minha foto"
-          className='w-80 rounded-xl border border-main-color'
+          className='w-80 rounded-xl'
         />
       </div>
       <section className='flex items-center text-6xl text-menu-color'>
