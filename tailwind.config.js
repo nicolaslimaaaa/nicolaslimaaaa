@@ -6,13 +6,11 @@ export default {
   ],
   theme: {
     colors: {
-      'main-color': '#b9b6fb',
-      'dark-color': '#4b3f30',
+      'main-color': '#06D900',
+      'dark-color': '#000500',
+      'complement-color': '#3238e2',
       'text-color': '#f6fdfa',
-      'bg-header': '#251f18',
       'icons-color': '#3c37d7',
-      'menu-color': '#f68356',
-      'bg-footer': '#3e3428',
     },
     extend: {
       fontFamily: {

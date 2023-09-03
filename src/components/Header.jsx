@@ -3,7 +3,7 @@ import { AiOutlineHome, AiOutlineMessage, AiOutlineAppstore, AiOutlineProfile, A
 
 const Header = () => {
   return (
-    <section className='hidden md:block w-80 fixed top-0 left-0 h-screen bg-bg-header text-menu-color z-50'>
+    <section className='hidden md:block w-80 fixed top-0 left-0 h-screen bg-dark-color text-menu-color z-50'>
       <nav className='flex flex-col justify-center gap-12 ml-6 min-h-screen'>
       <Link to="/" className='flex items-center gap-4'><AiOutlineHome /> Início</Link>
       <Link to="/about" className='flex items-center gap-4'><AiOutlineProfile /> Sobre</Link>
