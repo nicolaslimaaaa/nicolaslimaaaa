@@ -9,9 +9,11 @@ Para mim, o desenvolvimento vai além do código. Assim como decifro os padrões
 
 ## 🔗 Contate-me
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nicolaslimaaaa)
+<a href="https://www.linkedin.com/in/nlimaaaa" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+<a href = "mailto:nicolaslima1500@gmail.com"><img loading="lazy" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 
 ## Olá, eu sou o Nicolas Lima
-🧠 Estou estudando tecnologias de Back-End e Ciência de Dados
+🧠 Estou estudando POO e SOLID
 
 👯‍♀️ Procuro colaborar em uma comunidade e empresas que desejam a minha participação
 
