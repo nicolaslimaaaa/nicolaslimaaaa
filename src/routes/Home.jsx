@@ -16,7 +16,7 @@ const Home = () => {
         />
       </div>
       <section className='flex items-center text-6xl text-menu-color'>
-       <a href="https://www.linkedin.com/in/nicolaslimaaaa/" target='_blank' rel="noreferrer" className='pr-12 text-text-color'><AiFillLinkedin/></a>
+       <a href="https://www.linkedin.com/in/nlimaaaa/" target='_blank' rel="noreferrer" className='pr-12 text-text-color'><AiFillLinkedin/></a>
        <a href="https://github.com/nicolaslimaaaa" target='_blank' rel="noreferrer" className='pl-12 text-text-color'><AiFillGithub /></a>
       </section>
     </section>

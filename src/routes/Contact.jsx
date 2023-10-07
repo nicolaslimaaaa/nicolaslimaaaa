@@ -40,7 +40,7 @@ const Contact = () => {
           >Enviar</button>
         </form>
         <section className='flex items-center text-6xl text-text-color mt-16'>
-       <a href="https://www.linkedin.com/in/nicolaslimaaaa/" target='_blank' rel="noreferrer" className='pr-12'><AiFillLinkedin /></a>
+       <a href="https://www.linkedin.com/in/nlimaaaa/" target='_blank' rel="noreferrer" className='pr-12'><AiFillLinkedin /></a>
        <a href="https://github.com/nicolaslimaaaa" target='_blank' rel="noreferrer" className='pl-12'><AiFillGithub /></a>
       </section>
     </section>
