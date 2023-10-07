@@ -6,17 +6,16 @@ export default {
   ],
   theme: {
     colors: {
-      'main-color': '#b9b6fb',
-      'dark-color': '#4b3f30',
+      'main-color': '#8257e5',
+      'dark-color': '#07050c',
+      'complement-color': '#bae557',
       'text-color': '#f6fdfa',
-      'bg-header': '#251f18',
-      'icons-color': '#3c37d7',
-      'menu-color': '#f68356',
-      'bg-footer': '#3e3428',
     },
     extend: {
       fontFamily: {
-        'dosis': ['Dosis', 'sans-serif']
+        'dosis': ['Dosis', 'sans-serif'],
+        'playfair': ['Playfair', 'sans-serif'],
+        'cormorant': ['Cormorant', 'sans-serif'],
       }
     },
   },
