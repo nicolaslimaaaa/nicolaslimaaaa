@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section className="flex flex-col gap-y-5 mt-10 mx-16 text-text-color min-h-screen text-2xl text-center">
+    <section className="flex flex-col gap-y-16 mt-28 mx-16 text-text-color min-h-screen text-2xl text-center">
       <p>
         Olá! Meu nome é <span className="text-complement-color font-extrabold">Nicolas Lima</span>, tenho 23 anos e
         sou <span className="text-complement-color font-extrabold">Desenvolvedor Full Stack</span>. Minha jornada teve início com uma formação em

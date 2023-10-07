@@ -1,15 +1,18 @@
 import { Link } from 'react-router-dom'
-import { AiOutlineHome, AiOutlineMessage, AiOutlineAppstore, AiOutlineProfile, AiOutlineThunderbolt } from 'react-icons/ai';
+import {   } from 'react-icons/ai';
 
 const Header = () => {
   return (
-    <section className='hidden md:block w-80 fixed top-0 left-0 h-screen bg-dark-color text-menu-color z-50'>
-      <nav className='flex flex-col justify-center gap-12 ml-6 min-h-screen'>
-      <Link to="/" className='flex items-center gap-4'><AiOutlineHome /> Início</Link>
-      <Link to="/about" className='flex items-center gap-4'><AiOutlineProfile /> Sobre</Link>
-      <Link to="/projects" className='flex items-center gap-4'><AiOutlineAppstore /> Projetos</Link>
-      <Link to="/skills" className='flex items-center gap-4'><AiOutlineThunderbolt /> Habilidades</Link>
-      <Link to="/contact" className='flex items-center gap-4'><AiOutlineMessage /> Contatos</Link>
+    <section className='hidden md:flex md:h-14 md:justify-evenly fixed z-50 w-full bg-dark-color text-menu-color pt-4'>
+      <div className='flex justify-center items-center w-1/6'>
+      <Link to="/" className=''>NL</Link>  
+      </div>
+      <nav className='flex justify-center items-center w-full gap-x-11'>
+      <Link to="/" className='hover:text-main-color'>Início</Link>
+      <Link to="/about" className='hover:text-main-color'>Sobre</Link>
+      <Link to="/projects" className='hover:text-main-color'>Projetos</Link>
+      <Link to="/skills" className='hover:text-main-color'>Habilidades</Link>
+      <Link to="/contact" className='hover:text-main-color'> Contatos</Link>
       </nav>
     </section>
   )
