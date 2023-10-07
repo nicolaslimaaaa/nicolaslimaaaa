@@ -13,9 +13,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        'dosis': ['Dosis', 'sans-serif'],
         'playfair': ['Playfair', 'sans-serif'],
-        'cormorant': ['Cormorant', 'sans-serif'],
       }
     },
   },
