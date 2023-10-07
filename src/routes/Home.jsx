@@ -6,7 +6,7 @@ const Home = () => {
     <section className='text-menu-color flex flex-col items-center justify-center w-full min-h-screen'>
       <div className='flex flex-col justify-center items-center text-7xl'>
         <h1 className='pb-4 text-center pt-8 text-main-color'>Nicolas Lima</h1>
-        <h4 className='text-2xl pt-4 text-center'>Desenvolvedor Full Stack</h4>
+        <h4 className='text-2xl pt-4 text-center text-text-color'>Desenvolvedor Full Stack</h4>
       </div>
       <div className='flex justify-center items-center my-8'>
         <img

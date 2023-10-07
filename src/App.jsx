@@ -6,7 +6,7 @@ import ToTop from './components/ToTop'
 
 function App() {
   return (
-    <section>
+    <section className='font-playfair'>
       <Header />
       <div>
         <Drawer>

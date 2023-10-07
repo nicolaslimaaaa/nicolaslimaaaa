@@ -6,15 +6,16 @@ export default {
   ],
   theme: {
     colors: {
-      'main-color': '#06D900',
-      'dark-color': '#000500',
-      'complement-color': '#3238e2',
+      'main-color': '#8257e5',
+      'dark-color': '#07050c',
+      'complement-color': '#bae557',
       'text-color': '#f6fdfa',
-      'icons-color': '#3c37d7',
     },
     extend: {
       fontFamily: {
-        'dosis': ['Dosis', 'sans-serif']
+        'dosis': ['Dosis', 'sans-serif'],
+        'playfair': ['Playfair', 'sans-serif'],
+        'cormorant': ['Cormorant', 'sans-serif'],
       }
     },
   },
