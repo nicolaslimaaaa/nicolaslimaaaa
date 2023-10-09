@@ -6,6 +6,7 @@ Resolvendo problemas, explorando as maravilhas da matemática e desvendando os s
 
 Para mim, o desenvolvimento vai além do código. Assim como decifro os padrões de um cubo mágico, busco soluções inovadoras por meio da programação. Além disso, adoro mergulhar em jogos desafiadores, explorar vídeos curiosos e aplicar minha paixão pela arte de resolver problemas em diversos contextos, abordando cada desafio como uma oportunidade única.
 
+Portfólio: https://nicolaslimaaaa.vercel.app/
 
 ## 🔗 Contate-me
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nicolaslimaaaa)
