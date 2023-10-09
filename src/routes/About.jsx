@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section className="flex flex-col gap-y-16 mt-28 mx-16 text-text-color min-h-screen text-lg text-center 2xl:text-2xl">
+    <section className="flex flex-col gap-y-16 mt-28 mx-16 text-text-color min-h-screen text-lg text-center 2xl:text-2xl w-2/3 md:w-1/3">
       <p>
         Olá! Meu nome é <span className="text-complement-color font-extrabold">Nicolas Lima</span>, tenho 23 anos e
         sou <span className="text-complement-color font-extrabold">Desenvolvedor Full Stack</span>. Minha jornada teve início com uma formação em
@@ -9,7 +9,7 @@ const About = () => {
       <p>
         Resolvendo <span className="text-complement-color font-extrabold">problemas</span>, explorando as maravilhas da matemática e desvendando
         os segredos dos cubos mágicos, encontro minha motivação e inspiração. Minha <span className="text-complement-color font-extrabold">curiosidade</span>
-        inquieta é o combustível que me leva a <span className="text-complement-color font-extrabold">aprender</span> constantemente, enquanto a prática
+        {' '}inquieta é o combustível que me leva a <span className="text-complement-color font-extrabold">aprender</span> constantemente, enquanto a prática
         contínua é o caminho pelo qual traduzo conhecimento em <span className="text-complement-color font-extrabold">resultados</span> concretos.
 
       </p>
