@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
-import { AiOutlineMenu, AiOutlineClose, AiOutlineHome, AiOutlineMessage, AiOutlineAppstore, AiOutlineProfile, AiOutlineThunderbolt } from 'react-icons/ai';
+import { AiOutlineMenu, AiOutlineClose, AiOutlineHome, AiOutlineAppstore, AiOutlineProfile, AiOutlineThunderbolt } from 'react-icons/ai';
 import { useState } from 'react';
 
 const Drawer = ({ children }) => {
@@ -29,7 +29,6 @@ const Drawer = ({ children }) => {
       <li><Link to="/about" onClick={ closeDrawer }><AiOutlineProfile /> Sobre</Link></li>
       <li><Link to="/projects" onClick={ closeDrawer }><AiOutlineAppstore /> Projetos</Link></li>
       <li><Link to="/skills" onClick={ closeDrawer }><AiOutlineThunderbolt /> Habilidades</Link></li>
-      <li><Link to="/contact" onClick={ closeDrawer }><AiOutlineMessage /> Contatos</Link></li>
     </ul>
   </div>
 </div>

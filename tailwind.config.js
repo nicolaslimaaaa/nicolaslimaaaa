@@ -8,7 +8,9 @@ export default {
     colors: {
       'main-color': '#8257e5',
       'dark-color': '#07050c',
+      'complement2-color': '#e5579e',
       'complement-color': '#bae557',
+      'mono-color': '#1d1532',
       'text-color': '#f6fdfa',
     },
     extend: {

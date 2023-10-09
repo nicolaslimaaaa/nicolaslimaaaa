@@ -1,5 +1,5 @@
 import eu from '../assets/minha-foto.png'
-import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from 'react-icons/ai';
 
 const Home = () => {
   return (
@@ -15,9 +15,10 @@ const Home = () => {
           className='w-80 rounded-xl'
         />
       </div>
-      <section className='flex items-center text-6xl text-menu-color'>
-       <a href="https://www.linkedin.com/in/nlimaaaa/" target='_blank' rel="noreferrer" className='pr-12 text-text-color'><AiFillLinkedin/></a>
-       <a href="https://github.com/nicolaslimaaaa" target='_blank' rel="noreferrer" className='pl-12 text-text-color'><AiFillGithub /></a>
+      <section className='flex items-center text-5xl text-menu-color gap-x-16 pt-5'>
+       <a href="https://www.linkedin.com/in/nlimaaaa/" target='_blank' rel="noreferrer" className='text-text-color'><AiFillLinkedin/></a>
+       <a href="https://github.com/nicolaslimaaaa" target='_blank' rel="noreferrer" className='text-text-color'><AiFillGithub /></a>
+       <a href="mailto:nicolaslima1500@gmail.com" target='_blank' rel="noreferrer" className='text-text-color'><AiOutlineMail /></a>
       </section>
     </section>
   )
