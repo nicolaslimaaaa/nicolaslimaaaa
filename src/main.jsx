@@ -10,7 +10,6 @@ import Error from "./routes/Error";
 import Projects from "./routes/Projects";
 import About from "./routes/About";
 import Skills from "./routes/Skills";
-import Contact from "./routes/Contact";
 import './index.css';
 
 const router = createBrowserRouter([
@@ -30,10 +29,6 @@ const router = createBrowserRouter([
       {
         path: "/skills",
         element: <Skills />,
-      },
-      {
-        path: "/contact",
-        element: <Contact />,
       },
       {
         path: "/projects",

@@ -10,7 +10,7 @@ function App() {
       <Header />
       <div>
         <Drawer>
-            <div className='flex flex-col items-center justify-center w-full pt-14'>
+            <div className='flex flex-col items-center justify-center w-full'>
             <Outlet />
             </div>
         </Drawer>
