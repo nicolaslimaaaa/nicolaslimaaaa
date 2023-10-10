@@ -67,9 +67,9 @@ const Skills = () => {
     <section className='flex justify-center flex-wrap max-w-4xl mx-16 mt-28 text-menu-color min-h-screen w-2/3 gap-5'>
       {
         skills.map(({ name, path }, index) => (
-          <div className='flex flex-col text-2xl w-44 h-52 text-center items-center bg-mono-color rounded-2xl' key={`${index}.${path}`}>
+          <div className='flex flex-col text-2xl w-28 h-40 md:w-44 md:h-52 text-center items-center bg-mono-color rounded-2xl' key={`${index}.${path}`}>
             <h2 className='flex justify-center items-center h-16 w-28 text-main-color font-bold'>{name}</h2>
-            <img src={path} alt="Foto da stack" className='rounded-2xl w-28 h-28 bg-text-color'/>
+            <img src={path} alt="Foto da stack" className='rounded-2xl w-20 h-20 md:w-28 md:h-28 bg-text-color'/>
           </div>
         ))
       }
