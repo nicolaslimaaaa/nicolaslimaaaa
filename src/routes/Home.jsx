@@ -3,7 +3,7 @@ import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from 'react-icons/ai';
 
 const Home = () => {
   return (
-    <section className='text-menu-color flex flex-col items-center justify-center w-full min-h-screen'>
+    <section className='text-menu-color flex flex-col items-center justify-center w-full min-h-screen lg:mt-10'>
       <div className='flex flex-col justify-center items-center text-7xl'>
         <h1 className='pb-4 text-center pt-8 text-main-color'>Nicolas Lima</h1>
         <h4 className='text-2xl pt-4 text-center text-text-color'>Desenvolvedor Full Stack</h4>
