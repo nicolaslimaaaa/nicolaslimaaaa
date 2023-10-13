@@ -26,7 +26,7 @@ const Projects = () => {
   ];
 
   return (
-    <section className='flex justify-center items-center gap-x-5 flex-wrap md:mt-28 lg:mt-0 mx-16 min-h-screen'>
+    <section className='flex justify-center items-center gap-x-5 flex-wrap md:mt-28 mx-16 min-h-screen'>
       {
         projects.map(({ title, deploy, repository, img }, index) => (
           <div key={index} className='flex flex-col w-4/5 md:w-1/2 lg:w-1/3 gap-y-6 text-xl'>
