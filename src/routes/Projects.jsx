@@ -1,5 +1,6 @@
-import UCA from '../assets/projects/UCA.jpeg'
+import Uca from '../assets/projects/UCA.jpeg'
 import Portfolio from '../assets/projects/portfolio.jpeg'
+import Carrinho from '../assets/projects/carrinho-de-compras.jpeg'
 import { AiOutlineGithub, AiOutlineLink } from "react-icons/ai";
 
 const Projects = () => {
@@ -14,7 +15,13 @@ const Projects = () => {
       title: 'UCA!',
       deploy: 'https://trybewallet-vert-sigma.vercel.app/',
       repository:'https://github.com/nicolaslimaaaa/Trybewallet',
-      img: UCA,
+      img: Uca,
+    },
+    {
+      title: 'Carrinho de compras',
+      deploy: 'https://shopping-cart-seven-jade.vercel.app/',
+      repository:'https://github.com/nicolaslimaaaa/shopping-cart',
+      img: Carrinho,
     },
   ];
 
