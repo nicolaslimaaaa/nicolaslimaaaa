@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Redirecionar / para index.html
+  RewriteRule ^$ /index.html [L]
+</IfModule>
