@@ -14,7 +14,7 @@ Portfólio: https://nicolaslimaaaa.vercel.app/
 <a href = "mailto:nicolaslima1500@gmail.com"><img loading="lazy" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 
 ## Olá, eu sou o Nicolas Lima
-🧠 Estou estudando C#
+🧠 Estou estudando Node.js
 
 👯‍♀️ Procuro colaborar em uma comunidade e empresas que desejam a minha participação
 
